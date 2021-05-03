@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    overflow: hidden;
+}
+.container{
+    width:480px;
+    margin: 0 auto;
+    text-align: center;
+}
+.casino {
+    width:90%;
+    margin-top: 10px;
+    position: relative;
+    /* transition: 5s; */
+    transition-timing-function: ease-in-out;
+    cursor:grab;
+}
+.hand{
+    width: 50px;
+}
+.container p {
+    background-color: #fff;
+    width: 60px;
+    padding: 10px;
+    margin:0 auto;
+    border-radius: 100%;
+}
